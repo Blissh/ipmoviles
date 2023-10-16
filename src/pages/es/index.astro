@@ -13,6 +13,9 @@ import imageParallax from "../../assets/images/ParallaxExpSection.png";
 import Products from "../../components/Home/Products.astro";
 import ContactSection from "../../components/Home/ContactSection.astro";
 import sliderImages from "../../assets/images/slider/index";
+
+changeLanguage("es");
+
 const {
   slider01,
   slider02,
@@ -23,8 +26,6 @@ const {
   image03,
   image04,
 } = sliderImages;
-
-changeLanguage("es");
 ---
 
 <Layout title={t("titles.home")}>
